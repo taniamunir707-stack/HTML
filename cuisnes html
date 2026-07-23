@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisines</title>
+</head>
+<body>
+<h1>cuisines</h1>
+<div class="grind-container" id=main>
+<Header>
+
+
+    <h2>Indian cuisine</h2>
+
+    <p>indian cuisine is known for its diverse flavors and spices. It includes a variety of dishes such as curries, biryanis, and street food.</p>
+
+    <img src="hhhhhhhhhh.jpg" alt="indian cuisine" width="380">
+    
+    <h2>italian cuisine</h2>
+    <p>italian cuisine is famous for its pasta, pizza, and rich sauces. It emphasizes fresh ingredients and traditional cooking methods.</p>
+    <img src="italian_cuisine.jpg" alt="italian cuisine" width="380">
+
+    <h2>mexican cuisine</h2>
+    <p>mexican cuisine features bold flavors with ingredients like chili peppers, corn, and beans. Popular dishes include tacos, enchiladas, and guacamole.</p>
+    <img src="mexican.jpg" alt="mexican cuisine" width="380">
+</Header>
+<nav>
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">about</a></li>
+    </ul>
+</nav>
+    </div>
+    <footer>
+        <h2>Contact Us Mrs. Caroline</h2>
+    
+        <p>Phone No: +1124533</p>
+    
+        <address>36th Main, Palm Street, Delhi-36035</address>
+    </footer>
+    </div>
+</body>
+</html>

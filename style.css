@@ -1,10 +1,14 @@
 body{
-    background-color: rgb(255, 0, 111);
+    background-color: rgb(206, 235, 16);
     color: azure;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-style: italic;
 }
 h1{
-    font-size: 50px;
-    
+    font-size: 75px;
+    background-color: blueviolet;
+}
+#logo{
+width: 300px;
 }

@@ -12,3 +12,13 @@ h1{
 #logo{
 width: 300px;
 }
+#intro{
+  border: 5px solid blue;
+  margin-bottom:20px;
+  padding-left: 10px;
+}
+#teachers{
+    border: 5px solid rgb(253, 255, 240);
+    margin-bottom :20px;
+    padding-left: 10px;
+}

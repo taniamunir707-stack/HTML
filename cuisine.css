@@ -1,21 +1,21 @@
 body {
-    background-color: rgb(240, 9, 105);
-    color: azure;
+    background-color: rgb(9, 228, 240);
+    color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-style: aerial;
+    font-style: italic;
 }
 #cuisine{
     border: 5px solid rgb(253, 255, 240);
         margin-bottom: 20px;
         padding-left: 10px;
 }
-#bengali {
+#bengali-food {
     border: 5px solid rgb(253, 255, 240);
     margin-bottom: 20px;
     padding-left: 10px;
 }
-#gujrat {
+#gujrati {
     border: 5px solid rgb(253, 255, 240);
     margin-bottom: 20px;
     padding-left: 10px;}

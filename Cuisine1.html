@@ -3,57 +3,65 @@
 
 <head>
     <style>
+        div {
+            right: 30px;
+            border: 3px solid #73AD21;
+        }
 
-div {
-    right: 30px;
-    border: 3px solid #73AD21;
-}
+        div.absolute {
+            position: absolute;
+            left: 50px;
+            border: 3px solid blue;
+        }
 
-div.absolute {
-    position: absolute;
-    left: 50px;
-    border: 3px solid blue;
-}
+        div.relative {
+            position: relative;
+            left: 100px;
+            border: 3px solid #73AD21;
+        }
 
-div.relative {
-    position: relative;
-    left: 100px;
-    border: 3px solid #73AD21;
-}
+        div.fixed {
+            position: fixed;
+            top: 0;
+            right: 20px;
+            width: 300px;
+            border: 3px solid #73AD21;
+        }
 
-div.fixed {
-    position: fixed;
-    top: 0;
-    right: 20px;
-    width: 300px;
-    border: 3px solid #73AD21;
-}
+        div.sticky {
+            position: sticky;
+            top: 1px;
+            left: 20px;
+            width: 100px;
+            border: 3px solid #73AD21;
+        }
 
-div.sticky {
-    position: sticky;
-    top: 1px;
-    left: 20px;
-    width: 100px;
-    border: 3px solid #73AD21;
-}
-    
-.flex-container{
-      display: flex;
-      width: 200px;
-      background-color: rgb(0, 255, 157);
-      padding: 20px;
-    }
-</style>
+        .flex-container {
+            display: flex;
+            width: 100%;
+            background-color: rgb(0, 255, 157);
+            padding: 25px;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .flex-container div {
+            display: flex;
+            width: 500px;
+            background-color: rgb(0, 255, 157);
+            padding: 30px;
+            flex-direction: row;
+            margin: 3px;
+        }
+    </style>
 </head>
 
 <body>
-
-     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
-    <link href="cuisine.css" rel="stylesheet" type="text/css" />  
-<img src="indian cusine.jpg1.jpg"
+    <link href="cuisine.css" rel="stylesheet" type="text/css" />
+    <img src="indian cusine.jpg1.jpg" alt="Indian cuisine">
 
     <header>
         <h1>Indian Cuisines</h1>
@@ -68,14 +76,18 @@ div.sticky {
                 diverse multi cuisine available in a large number of restaurants and hotel resorts, which is reminiscent
                 of
                 unity in diversity.</p>
+                <body>
+                
+                    <div class="flex-container">
+                        <div>Bengali</div>
+                        <div>Gujrati</div>
+                        <div>Mughlai</div>
+                        <div>Punjabi</div>
+                        <div>South Indian</div>
+                
         </div>
     </header>
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-    </div>
+    
     <nav>
         <ul>
             <li>
@@ -89,7 +101,7 @@ div.sticky {
                 </a>
             </li>
             <li>
-                <a href="#mughalai-food">
+                <a href="#mughlai-food">
                     Mughlai
                 </a>
             </li>
@@ -115,7 +127,7 @@ div.sticky {
                     specialty of Bengali food lies in the perfect blend of sweet and spicy flavors. </p>
             </div>
         </section>
-        <section id="gujarati-food">
+        <section id="gujrati-food">
             <h2>Gujarati Food</h2>
             <div>
                 <img src="gujrati food.jpg" width="300px" alt="gujarati food">
@@ -125,7 +137,7 @@ div.sticky {
                     and each dish has an absolutely different cooking style.</p>
             </div>
         </section>
-        <section id="mughalai-food">
+        <section id="mughlai-food">
             <h2>Mughlai Food</h2>
             <div>
                 <img src="mughlai food.jpg" width="300px" alt="mughali food">
@@ -192,6 +204,7 @@ div.sticky {
         </div>
     </aside>
     <footer>
+        
         <p><span>Published By: </span>Author Name</p>
         <p><span>Date: </span>25/04/2021</p>
     </footer>

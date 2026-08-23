@@ -10,8 +10,15 @@ body {
         margin-bottom: 20px;
         padding-left: 10px;
 }
+#cuisine-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px
+}
 #bengali-food {
-    border: 5px solid rgb(253, 255, 240);
+    border: 5px so
+    lid rgb(253, 255, 240);
     margin-bottom: 20px;
     padding-left: 10px;
 }

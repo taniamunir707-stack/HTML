@@ -4,7 +4,33 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-style: italic;
-}
+    .container{
+        display: grid;
+        grid-template-columns :auto auto auto auto;
+        background-color :aqua;
+        padding: 10px;
+        grid-template-areas:
+        'menu header header header'
+        'menu main main main'
+        'menu footer footer footer'
+        '
+    }
+    .container div{
+        background-color: blue;
+        padding: 20px;
+        text-align: center;
+        border: 3px solid lightgreen;
+ }
+ .item1{
+    grid-area: header;
+     }
+     .item2{
+        grid-area:menu;
+.item3 {
+        grid-area: main;
+        .item4{
+                grid-area: footer;
+     }
 #cuisine{
     border: 5px solid rgb(253, 255, 240);
         margin-bottom: 20px;
